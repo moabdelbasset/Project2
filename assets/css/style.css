@@ -1,4 +1,16 @@
 /* Global Settings */
 body {
-    background-color: blue;
+    background-color: black;
+}
+
+body h1 {
+    color: white;
+    font-size: xx-large;
+}
+
+.square {
+    border-color: white;
+    border-width: thick;
+    width: 33%;
+    height: 33%;
 }
