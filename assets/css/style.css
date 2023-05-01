@@ -1,16 +1,24 @@
-/* Global Settings */
-body {
-    background-color: black;
+* {
+    box-sizing: border-box;
 }
 
-body h1 {
-    color: white;
-    font-size: xx-large;
+.game-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
 }
 
 .square {
-    border-color: white;
-    border-width: thick;
-    width: 33%;
-    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 2em;
+    font-weight: bold;
+    user-select: none;
 }
